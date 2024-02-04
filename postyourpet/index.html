@@ -25,23 +25,52 @@
             <button class="signup">sign up</button>-->
         </div> 
     </header>
-    <div class="fullwrapper"><div class="container">
-        <div class="wrap1">
-            <div class="textwrap">
-                <div class="headtext"><h1>POST YOUR <br>PET</h1></div>
-                <div class="discritext">Be honest and transparent about your pet's <br>personality,health,and any special needs</div>
-            </div>
-            <div class="imagefile"></div>
-        </div>
-        <div class="wrap2"><form>
-            <label for="petDescription"></label><br>
-            <textarea id="petDescription" name="petDescription" placeholder="DESCRIPTION OF YOUR PET AND CONTACT DETAILS" rows="4" cols="50"></textarea><br><br>
-          </form></div>
-        <a class="design" href="/yourpets/index.html"><div class="wrap3">
-            <h2>YOUR PETS</h2>
-        </div></a>
-    </div></div>
+
+    <div class="heading">
+        <div class="head">POST YOUR PET</div>
+        <div class="descri"> <div class="head-descrip">Be honest and transparent about the pets personality,health,
+            <div class="head-descri">and any special needs</div></div></div>
+       
+    </div>
     
+
+    <div class="form-container">           
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="pet_name">PET'S NAME</label>
+                <input type="text" id="pet_name" name="pet_name" required>
+            </div>
+            <div class="form-group">
+                <label for="breed">BREED</label>
+                <input type="text" id="breed" name="breed" required>
+            </div>
+            <div class="form-group">
+                <label class="coat-color-label" for="coat_color">COAT COLOR</label>
+                <input type="text" id="coat_color" name="coat_color" class="coat-color-input">
+                <div class="a"><label for="age">AGE</label>
+                <input type="number" id="age" name="age" min="0" class="age-input"></div>
+            </div>
+            <div class="form-group">
+                <label for="owner_name">OWNER'S NAME</label>
+                <input type="text" id="owner_name" name="owner_name" required>
+            </div>
+            <div class="form-group">
+                <label for="contact_no">CONTACT NO</label>
+                <input type="text" id="contact_no" name="contact_no" required>
+            </div>
+            <div class="form-group">
+                <label for="description">DESCRIPTION</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pet_image">UPLOAD PET IMAGE</label>
+                <input type="file" id="pet_image" name="pet_image">
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <a href="/yourpets/index.html"><div class="yourpet">YOUR PET</div></a>
+    </div>
 
 
 

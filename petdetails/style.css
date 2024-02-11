@@ -161,8 +161,60 @@ footer .link-container ul {
     align-self: center;
   }
 
-  .pet-name-description {
-    margin-left: -645px;
+  
+
+  .calsav {
+    display: flex;
+    gap: 10px;
+  }
+
+.div-col {
+  display: flex; 
+  align-items: center; 
+   gap: 532px;
+  justify-content: center;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    border: 5px solid black;
+    height: 25px;
+    width: 25px;
+    padding:10px;
+    padding:10px;
+    border-radius: 50%;
+}
+
+.call:hover {
+  background-color: red;
+  
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+  border: 5px solid black;
+  height: 25px;
+  width: 25px;
+  padding:10px;
+  border-radius: 50%;
+}
+
+.save:hover {
+  background-color: red;
+ 
+}
+
+   .save object {
+  width: 20px; /* specify the desired width */
+  height: auto; /* set height to auto to maintain aspect ratio */
+}
+
+.call object {
+    width: 20px; /* specify the desired width */
+    height: auto; /* set height to auto to maintain aspect ratio */
   }
 
  

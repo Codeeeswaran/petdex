@@ -177,3 +177,8 @@ footer .link-container ul {
     width: 528px;
     margin-left: 9px;
   }
+
+  .signup-container a {
+    color: red;
+    text-decoration: none;
+  }

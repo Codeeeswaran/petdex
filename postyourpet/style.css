@@ -199,11 +199,16 @@ footer .link-container ul {
     margin-top: 50px;
     font-weight: bolder;
     font-size: xx-large;
+    color:black ;
 }
 
 
 .yourpet:hover {
     background-color: rgb(193, 132, 249);
+}
+
+.yourpet a:hover {
+  color: black;
 }
 
 .heading{
@@ -229,4 +234,6 @@ footer .link-container ul {
     
     margin-left: 120px;
 }
-
+ a {
+    text-decoration: none;
+ }

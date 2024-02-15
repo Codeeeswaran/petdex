@@ -153,6 +153,7 @@ footer .link-container ul {
     border:solid 5px black; 
     max-width: 900px;
     padding: 50px 100px;
+    align-self: center;
 
   }
 
@@ -215,4 +216,19 @@ footer .link-container ul {
 .head-row .search .circle :hover{
     
     background-color: red;
+}
+
+.search-container {
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* Styling the input field */
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid black; /* Solid black border */
+    border-radius: 12px; /* Border radius */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
 }
